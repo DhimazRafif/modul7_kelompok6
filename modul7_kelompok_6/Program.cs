@@ -7,7 +7,10 @@ public class Program
         //DataMahasiswa_103082430003 mahasiswa = new DataMahasiswa_103082430003();
         //mahasiswa.ReadJSON();
 
-        TeamMembers_103082430003 member = new TeamMembers_103082430003(); 
-        member.ReadJSON();
+        //TeamMembers_103082430003 member = new TeamMembers_103082430003(); 
+        //member.ReadJSON();
+
+        GlossaryItem_103082430003 glossary = new GlossaryItem_103082430003();
+        glossary.ReadJSON();
     }
 }
