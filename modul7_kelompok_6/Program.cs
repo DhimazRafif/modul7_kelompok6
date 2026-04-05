@@ -4,7 +4,10 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        DataMahasiswa_103082430003 mahasiswa = new DataMahasiswa_103082430003();
-        mahasiswa.ReadJSON();
+        //DataMahasiswa_103082430003 mahasiswa = new DataMahasiswa_103082430003();
+        //mahasiswa.ReadJSON();
+
+        TeamMembers_103082430003 member = new TeamMembers_103082430003(); 
+        member.ReadJSON();
     }
 }

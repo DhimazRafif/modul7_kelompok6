@@ -7,7 +7,7 @@ namespace modul7_kelompok_6
 {
     public class Address
     {
-        public string streetaddress;
+        public string streetAddress;
         public string city;
         public string state;
     }
@@ -41,7 +41,7 @@ namespace modul7_kelompok_6
                 Console.WriteLine(new String('=',32) + "Profil Mahasiswa" + new string('=',32));
                 Console.WriteLine($"Nama depan {mhs.firstName} + nama belakang {mhs.lastName}");
                 Console.WriteLine($"Alamat : ");
-                Console.WriteLine($"Jalan : {mhs.address.streetaddress}, Kota {mhs.address.city}, Provinsi : {mhs.address.state}");
+                Console.WriteLine($"Jalan : {mhs.address.streetAddress}, Kota {mhs.address.city}, Provinsi : {mhs.address.state}");
                 Console.WriteLine("Mata kuliah yang diambil : ");
                 foreach (var i in mhs.courses)
                 {
